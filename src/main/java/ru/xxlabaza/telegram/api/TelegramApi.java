@@ -55,14 +55,14 @@ interface TelegramApi {
     /**
      * Use this method to send text messages.
      *
-     * @param chat           - Unique identifier for the target chat or username of the target channel
+     * @param chat           Unique identifier for the target chat or username of the target channel
      *                       (in the format @channelusername)
-     * @param text           - Text of the message to be sent
-     * @param mode           - Send Markdown, if you want Telegram apps to show bold, italic and inline URLs in your
+     * @param text           Text of the message to be sent
+     * @param mode           Send Markdown, if you want Telegram apps to show bold, italic and inline URLs in your
      *                       bot's message
-     * @param disablePreview - Disables link previews for links in this message
-     * @param replyTo        - If the message is a reply, ID of the original message
-     * @param reply          - Additional interface options. A JSON-serialized object for a custom reply keyboard
+     * @param disablePreview Disables link previews for links in this message
+     * @param replyTo        If the message is a reply, ID of the original message
+     * @param reply          Additional interface options. A JSON-serialized object for a custom reply keyboard
      *
      * @return On success, the sent {@link Message} is returned.
      */
@@ -83,14 +83,14 @@ interface TelegramApi {
     /**
      * Use this method to send text messages.
      *
-     * @param chat           - Unique identifier for the target chat or username of the target channel
+     * @param chat           Unique identifier for the target chat or username of the target channel
      *                       (in the format @channelusername)
-     * @param text           - Text of the message to be sent
-     * @param mode           - Send Markdown, if you want Telegram apps to show bold, italic and inline URLs in your
+     * @param text           Text of the message to be sent
+     * @param mode           Send Markdown, if you want Telegram apps to show bold, italic and inline URLs in your
      *                       bot's message
-     * @param disablePreview - Disables link previews for links in this message
-     * @param replyTo        - If the message is a reply, ID of the original message
-     * @param reply          - Additional interface options. A JSON-serialized object for a instructions to hide
+     * @param disablePreview Disables link previews for links in this message
+     * @param replyTo        If the message is a reply, ID of the original message
+     * @param reply          Additional interface options. A JSON-serialized object for a instructions to hide
      *                       keyboard
      *
      * @return On success, the sent {@link Message} is returned.
@@ -112,14 +112,14 @@ interface TelegramApi {
     /**
      * Use this method to send text messages.
      *
-     * @param chat           - Unique identifier for the target chat or username of the target channel
+     * @param chat           Unique identifier for the target chat or username of the target channel
      *                       (in the format @channelusername)
-     * @param text           - Text of the message to be sent
-     * @param mode           - Send Markdown, if you want Telegram apps to show bold, italic and inline URLs in your
+     * @param text           Text of the message to be sent
+     * @param mode           Send Markdown, if you want Telegram apps to show bold, italic and inline URLs in your
      *                       bot's message
-     * @param disablePreview - Disables link previews for links in this message
-     * @param replyTo        - If the message is a reply, ID of the original message
-     * @param reply          - Additional interface options. A JSON-serialized object to force a reply from the user
+     * @param disablePreview Disables link previews for links in this message
+     * @param replyTo        If the message is a reply, ID of the original message
+     * @param reply          Additional interface options. A JSON-serialized object to force a reply from the user
      *
      * @return On success, the sent {@link Message} is returned.
      */
@@ -140,11 +140,11 @@ interface TelegramApi {
     /**
      * Use this method to forward messages of any kind.
      *
-     * @param chat     - Unique identifier for the target chat or username of the target channel
+     * @param chat     Unique identifier for the target chat or username of the target channel
      *                 (in the format @channelusername)
-     * @param fromChat - Unique identifier for the chat where the original message was sent
+     * @param fromChat Unique identifier for the chat where the original message was sent
      *                 (or channel username in the format @channelusername)
-     * @param message  - Unique message identifier
+     * @param message  Unique message identifier
      *
      * @return On success, the sent {@link Message} is returned.
      */
@@ -159,12 +159,12 @@ interface TelegramApi {
     /**
      * Use this method to send .webp stickers.
      *
-     * @param chat    - Unique identifier for the target chat or username of the target channel
+     * @param chat    Unique identifier for the target chat or username of the target channel
      *                (in the format @channelusername)
-     * @param sticker - Sticker to send. You can pass a file_id as String to resend a sticker that is already on
+     * @param sticker Sticker to send. You can pass a file_id as String to resend a sticker that is already on
      *                the Telegram servers.
-     * @param replyTo - If the message is a reply, ID of the original message
-     * @param reply   - Additional interface options. A JSON-serialized object for a custom reply keyboard
+     * @param replyTo If the message is a reply, ID of the original message
+     * @param reply   Additional interface options. A JSON-serialized object for a custom reply keyboard
      *
      * @return On success, the sent {@link Message} is returned.
      */
@@ -181,12 +181,12 @@ interface TelegramApi {
     /**
      * Use this method to send .webp stickers.
      *
-     * @param chat    - Unique identifier for the target chat or username of the target channel
+     * @param chat    Unique identifier for the target chat or username of the target channel
      *                (in the format @channelusername)
-     * @param sticker - Sticker to send. You can pass a file_id as String to resend a sticker that is already on
+     * @param sticker Sticker to send. You can pass a file_id as String to resend a sticker that is already on
      *                the Telegram servers.
-     * @param replyTo - If the message is a reply, ID of the original message
-     * @param reply   - Additional interface options. A JSON-serialized object for a instructions to hide keyboard
+     * @param replyTo If the message is a reply, ID of the original message
+     * @param reply   Additional interface options. A JSON-serialized object for a instructions to hide keyboard
      *
      * @return On success, the sent {@link Message} is returned.
      */
@@ -203,12 +203,12 @@ interface TelegramApi {
     /**
      * Use this method to send .webp stickers.
      *
-     * @param chat    - Unique identifier for the target chat or username of the target channel
+     * @param chat    Unique identifier for the target chat or username of the target channel
      *                (in the format @channelusername)
-     * @param sticker - Sticker to send. You can pass a file_id as String to resend a sticker that is already on
+     * @param sticker Sticker to send. You can pass a file_id as String to resend a sticker that is already on
      *                the Telegram servers.
-     * @param replyTo - If the message is a reply, ID of the original message
-     * @param reply   - Additional interface options. A JSON-serialized object to force a reply from the user
+     * @param replyTo If the message is a reply, ID of the original message
+     * @param reply   Additional interface options. A JSON-serialized object to force a reply from the user
      *
      * @return On success, the sent {@link Message} is returned.
      */
@@ -226,11 +226,11 @@ interface TelegramApi {
      * *
      * Use this method to send point on the map.
      *
-     * @param chat      - Unique identifier for the message recipient — User or GroupChat id
-     * @param latitude  - Latitude of location
-     * @param longitude - Longitude of location
-     * @param replyTo   - If the message is a reply, ID of the original message
-     * @param reply     - Additional interface options. A JSON-serialized object for a custom reply keyboard
+     * @param chat      Unique identifier for the message recipient — User or GroupChat id
+     * @param latitude  Latitude of location
+     * @param longitude Longitude of location
+     * @param replyTo   If the message is a reply, ID of the original message
+     * @param reply     Additional interface options. A JSON-serialized object for a custom reply keyboard
      *
      * @return On success, the sent {@link Message} is returned.
      */
@@ -249,11 +249,11 @@ interface TelegramApi {
     /**
      * Use this method to send point on the map
      *
-     * @param chat      - Unique identifier for the message recipient — User or GroupChat id
-     * @param latitude  - Latitude of location
-     * @param longitude - Longitude of location
-     * @param replyTo   - If the message is a reply, ID of the original message
-     * @param reply     - Additional interface options. A JSON-serialized object for the instructions to hide keyboard
+     * @param chat      Unique identifier for the message recipient — User or GroupChat id
+     * @param latitude  Latitude of location
+     * @param longitude Longitude of location
+     * @param replyTo   If the message is a reply, ID of the original message
+     * @param reply     Additional interface options. A JSON-serialized object for the instructions to hide keyboard
      *
      * @return On success, the sent {@link Message} is returned.
      */
@@ -272,11 +272,11 @@ interface TelegramApi {
     /**
      * Use this method to send point on the map.
      *
-     * @param chat      - Unique identifier for the message recipient — User or GroupChat id
-     * @param latitude  - Latitude of location
-     * @param longitude - Longitude of location
-     * @param replyTo   - If the message is a reply, ID of the original message
-     * @param reply     - Additional interface options. A JSON-serialized object for to force a reply from the user.
+     * @param chat      Unique identifier for the message recipient — User or GroupChat id
+     * @param latitude  Latitude of location
+     * @param longitude Longitude of location
+     * @param replyTo   If the message is a reply, ID of the original message
+     * @param reply     Additional interface options. A JSON-serialized object for to force a reply from the user.
      *
      * @return On success, the sent {@link Message} is returned.
      */
@@ -302,9 +302,9 @@ interface TelegramApi {
      * <p>
      * We only recommend using this method when a response from the bot will take a noticeable amount of time to arrive.
      *
-     * @param chat   - Unique identifier for the target chat or username of the target channel
+     * @param chat   Unique identifier for the target chat or username of the target channel
      *               (in the format @channelusername)
-     * @param action - Type of action to broadcast. Choose one, depending on what the user is about to receive: typing
+     * @param action Type of action to broadcast. Choose one, depending on what the user is about to receive: typing
      *               for text messages, upload_photo for photos, record_video or upload_video for videos, record_audio
      *               or upload_audio for audio files, upload_document for general files, find_location for location
      *               data.
@@ -323,13 +323,13 @@ interface TelegramApi {
      * <p>
      * In order to avoid getting duplicate updates, recalculate offset after each server response.
      *
-     * @param offset  - Optional. Identifier of the first update to be returned. Must be greater by one than the highest
+     * @param offset  Optional. Identifier of the first update to be returned. Must be greater by one than the highest
      *                among the identifiers of previously received updates. By default, updates starting with the
      *                earliest unconfirmed update are returned. An update is considered confirmed as soon as getUpdates
      *                is called with an offset higher than its update_id.
-     * @param limit   - Optional. Limits the number of updates to be retrieved. Values between 1—100 are accepted.
+     * @param limit   Optional. Limits the number of updates to be retrieved. Values between 1—100 are accepted.
      *                Defaults to 100.
-     * @param timeout - Optional. Timeout in seconds for long polling. Defaults to 0, i.e. usual short polling.
+     * @param timeout Optional. Timeout in seconds for long polling. Defaults to 0, i.e. usual short polling.
      *
      * @return An list of {@link Update} objects is returned.
      */
@@ -355,7 +355,7 @@ interface TelegramApi {
      * 2. We currently do not support self-signed certificates.
      * 3. Ports currently supported for Webhooks: 443, 80, 88, 8443.
      *
-     * @param url - Optional. HTTPS url to send updates to. Use an empty string to remove webhook integration
+     * @param url Optional. HTTPS url to send updates to. Use an empty string to remove webhook integration
      */
     @RequestLine("POST /setWebhook?url={url}")
     Response<Object> setWebhook (@Param("url") String url);

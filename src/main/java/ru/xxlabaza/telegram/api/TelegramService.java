@@ -50,6 +50,9 @@ public final class TelegramService {
 
     private final TelegramApi api;
 
+    /**
+     * @param token a unique bot's authentication token
+     */
     public TelegramService (String token) {
         api = Feign.builder()
                 .encoder(new JacksonEncoder())
@@ -57,6 +60,10 @@ public final class TelegramService {
                 .target(TelegramApi.class, URL + token);
     }
 
+    /**
+     * @param token   a unique bot's authentication token
+     * @param logFile path to log file
+     */
     public TelegramService (String token, String logFile) {
         api = Feign.builder()
                 .encoder(new JacksonEncoder())

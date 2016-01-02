@@ -55,7 +55,7 @@ public final class SendLocationRequestBuilder extends AbstractReplyRequestBuilde
     /**
      * Required value.
      *
-     * @param chat - unique identifier for the target chat or username of the target channel
+     * @param chat unique identifier for the target chat or username of the target channel
      *             (in the format @channelusername)
      *
      * @return {@link SendLocationRequestBuilder} which builds request
@@ -68,7 +68,7 @@ public final class SendLocationRequestBuilder extends AbstractReplyRequestBuilde
     /**
      * Required value.
      *
-     * @param latitude - latitude of location
+     * @param latitude latitude of location
      *
      * @return {@link SendLocationRequestBuilder} which builds request
      */
@@ -80,7 +80,7 @@ public final class SendLocationRequestBuilder extends AbstractReplyRequestBuilde
     /**
      * Required value.
      *
-     * @param latitude - latitude of location
+     * @param latitude latitude of location
      *
      * @return {@link SendLocationRequestBuilder} which builds request
      */
@@ -92,7 +92,7 @@ public final class SendLocationRequestBuilder extends AbstractReplyRequestBuilde
     /**
      * Required value.
      *
-     * @param latitude - latitude of location
+     * @param latitude latitude of location
      *
      * @return {@link SendLocationRequestBuilder} which builds request
      */
@@ -104,7 +104,7 @@ public final class SendLocationRequestBuilder extends AbstractReplyRequestBuilde
     /**
      * Required value.
      *
-     * @param latitude - latitude of location
+     * @param latitude latitude of location
      *
      * @return {@link SendLocationRequestBuilder} which builds request
      */
@@ -116,7 +116,7 @@ public final class SendLocationRequestBuilder extends AbstractReplyRequestBuilde
     /**
      * Required value.
      *
-     * @param latitude - latitude of location
+     * @param latitude latitude of location
      *
      * @return {@link SendLocationRequestBuilder} which builds request
      */
@@ -128,7 +128,7 @@ public final class SendLocationRequestBuilder extends AbstractReplyRequestBuilde
     /**
      * Required value.
      *
-     * @param latitude - latitude of location
+     * @param latitude latitude of location
      *
      * @return {@link SendLocationRequestBuilder} which builds request
      */
@@ -140,7 +140,7 @@ public final class SendLocationRequestBuilder extends AbstractReplyRequestBuilde
     /**
      * Required value.
      *
-     * @param longitude - longitude of location
+     * @param longitude longitude of location
      *
      * @return {@link SendLocationRequestBuilder} which builds request
      */
@@ -152,7 +152,7 @@ public final class SendLocationRequestBuilder extends AbstractReplyRequestBuilde
     /**
      * Required value.
      *
-     * @param longitude - longitude of location
+     * @param longitude longitude of location
      *
      * @return {@link SendLocationRequestBuilder} which builds request
      */
@@ -164,7 +164,7 @@ public final class SendLocationRequestBuilder extends AbstractReplyRequestBuilde
     /**
      * Required value.
      *
-     * @param longitude - longitude of location
+     * @param longitude longitude of location
      *
      * @return {@link SendLocationRequestBuilder} which builds request
      */
@@ -176,7 +176,7 @@ public final class SendLocationRequestBuilder extends AbstractReplyRequestBuilde
     /**
      * Required value.
      *
-     * @param longitude - longitude of location
+     * @param longitude longitude of location
      *
      * @return {@link SendLocationRequestBuilder} which builds request
      */
@@ -188,7 +188,7 @@ public final class SendLocationRequestBuilder extends AbstractReplyRequestBuilde
     /**
      * Required value.
      *
-     * @param longitude - longitude of location
+     * @param longitude longitude of location
      *
      * @return {@link SendLocationRequestBuilder} which builds request
      */
@@ -200,7 +200,7 @@ public final class SendLocationRequestBuilder extends AbstractReplyRequestBuilde
     /**
      * Required value.
      *
-     * @param longitude - longitude of location
+     * @param longitude longitude of location
      *
      * @return {@link SendLocationRequestBuilder} which builds request
      */

@@ -51,7 +51,7 @@ public final class ForwardMessageRequestBuilder extends AbstractRequestBuilder<M
     /**
      * Required value.
      *
-     * @param chat - unique identifier for the target chat or username of the target channel
+     * @param chat unique identifier for the target chat or username of the target channel
      *             (in the format @channelusername)
      *
      * @return {@link ForwardMessageRequestBuilder} which builds request
@@ -64,7 +64,7 @@ public final class ForwardMessageRequestBuilder extends AbstractRequestBuilder<M
     /**
      * Required value.
      *
-     * @param fromChat - unique identifier for the chat where the original message was sent
+     * @param fromChat unique identifier for the chat where the original message was sent
      *                 (or channel username in the format @channelusername)
      *
      * @return {@link ForwardMessageRequestBuilder} which builds request
@@ -77,7 +77,7 @@ public final class ForwardMessageRequestBuilder extends AbstractRequestBuilder<M
     /**
      * Required value.
      *
-     * @param message - unique message identifier
+     * @param message unique message identifier
      *
      * @return {@link ForwardMessageRequestBuilder} which builds request
      */

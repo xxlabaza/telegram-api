@@ -57,7 +57,7 @@ public final class SendMessageRequestBuilder extends AbstractReplyRequestBuilder
     /**
      * Required value.
      *
-     * @param chat - unique identifier for the target chat or username of the target channel
+     * @param chat unique identifier for the target chat or username of the target channel
      *             (in the format @channelusername)
      *
      * @return {@link SendMessageRequestBuilder} which builds request
@@ -70,7 +70,7 @@ public final class SendMessageRequestBuilder extends AbstractReplyRequestBuilder
     /**
      * Required value.
      *
-     * @param text - text of the message to be sent
+     * @param text text of the message to be sent
      *
      * @return {@link SendMessageRequestBuilder} which builds request
      */
@@ -82,7 +82,7 @@ public final class SendMessageRequestBuilder extends AbstractReplyRequestBuilder
     /**
      * Optional value.
      *
-     * @param mode - send Markdown, if you want Telegram apps to show bold, italic and inline URLs in your bot's message
+     * @param mode send Markdown, if you want Telegram apps to show bold, italic and inline URLs in your bot's message
      *
      * @return {@link SendMessageRequestBuilder} which builds request
      */

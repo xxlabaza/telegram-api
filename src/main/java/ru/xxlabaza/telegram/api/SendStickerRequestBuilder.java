@@ -52,7 +52,7 @@ public final class SendStickerRequestBuilder extends AbstractReplyRequestBuilder
     /**
      * Required value.
      *
-     * @param chat - unique identifier for the target chat or username of the target channel
+     * @param chat unique identifier for the target chat or username of the target channel
      *             (in the format @channelusername)
      *
      * @return {@link SendStickerRequestBuilder} which builds request
@@ -65,7 +65,7 @@ public final class SendStickerRequestBuilder extends AbstractReplyRequestBuilder
     /**
      * Required value.
      *
-     * @param sticker - sticker to send. You can pass a file_id as String to resend a sticker that is already on
+     * @param sticker sticker to send. You can pass a file_id as String to resend a sticker that is already on
      *                the Telegram servers.
      *
      * @return {@link SendStickerRequestBuilder} which builds request

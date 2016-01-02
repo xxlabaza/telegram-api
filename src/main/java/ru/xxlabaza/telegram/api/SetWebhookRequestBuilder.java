@@ -43,7 +43,7 @@ public final class SetWebhookRequestBuilder extends AbstractRequestBuilder<Objec
     /**
      * Optional value.
      *
-     * @param url - HTTPS url to send updates to. Use an empty string to remove webhook integration
+     * @param url HTTPS url to send updates to. Use an empty string to remove webhook integration
      *
      * @return {@link SetWebhookRequestBuilder} which builds request
      */

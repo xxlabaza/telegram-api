@@ -45,7 +45,7 @@ public final class SendChatActionRequestBuilder extends AbstractRequestBuilder<O
     /**
      * Required value.
      *
-     * @param chat - unique identifier for the target chat or username of the target channel
+     * @param chat unique identifier for the target chat or username of the target channel
      *             (in the format @channelusername)
      *
      * @return {@link SendChatActionRequestBuilder} which builds request
@@ -58,7 +58,7 @@ public final class SendChatActionRequestBuilder extends AbstractRequestBuilder<O
     /**
      * Required value.
      *
-     * @param action - type of action to broadcast. Choose one, depending on what the user is about to receive: typing
+     * @param action type of action to broadcast. Choose one, depending on what the user is about to receive: typing
      *               for text messages, upload_photo for photos, record_video or upload_video for videos, record_audio
      *               or upload_audio for audio files, upload_document for general files, find_location for location
      *               data.
